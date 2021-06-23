@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 35%;
+    min-height: 50vh;
+    font-size: large;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 40px;
+
+}
+
+/* .h2{
+
+} */
+
+/* .container.enable-btn{
+    padding-bottom: 20px;
+} */
+
+.container .button1 {
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    /* font-weight: bold; */
+    padding: 10px;
+    border-radius: 5px;
+    /* display: block; */
+    margin-bottom: 20px;
+    background-color: blue;
+    border: 0;
+
+}
+
+.address label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(53, 53, 53);
+}
+
+.address input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: large;
+
+}
+
+.container .button2 {
+    cursor: pointer;
+    font-size: large;
+    /* font-weight: bold; */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    /* display: block; */
+    margin-bottom: 20px;
+    background-color: blue;
+    border: 0;
+
+}
